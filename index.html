@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Password <br> Generator</h1>
+        <h2>Create an random unhackable password in seconds!</h2> 
+    </div>
+    <br>
+    <div>
+        <button class="glow-on-hover" type="button" onclick="generatePw()">Generate Password!</button>
+    </div>
+    <br><hr style="width:50%", size="2", color=white><br> 
+    <div>
+        <button class="glow-on-hover" type="button" id="button1" onclick="copyTextOne()"></button>
+        <button class="glow-on-hover" type="button" id="button2" onclick="copyTextTwo()"></button>
+    </div> 
+    <p id="copymessage"></p>
+    <script src="script.js"></script>
+</body>
+</html>
